@@ -6,6 +6,6 @@
 # user_name = gets.chomp
 # puts "Hello, #{user_name}"
 
-puts "what year were you born"
-user_birthyear = gets
-puts "#{user_birthyear}"
+puts "what is your age"
+  user_age = gets.to_i
+puts "#{2018 - user_age}"
